@@ -24,5 +24,5 @@ SET(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
 file(GLOB SOURCES "*.cpp")
 
 #Store executable to the specific path
-set(EXECUTABLE_OUTPUT_PATH "../bin")
+set(EXECUTABLE_OUTPUT_PATH "../../bins")
 add_executable( ${PROJECT_NAME} ${SOURCES})
