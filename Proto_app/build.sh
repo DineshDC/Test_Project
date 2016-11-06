@@ -1,7 +1,6 @@
 HOME=`pwd`
 echo $HOME
-cd $HOME/Test1/build
+cd $HOME/Proto_app/build
 cmake ..
 make
 cd $HOME
-
